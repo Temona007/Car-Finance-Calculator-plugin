@@ -1,0 +1,430 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800,900');
+
+#car-calculator {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #333;
+	margin-top:20px;
+}
+
+/* FINANCE CALC */
+
+#representativeTable{
+	width:100%;
+	float:left;
+	display:block;
+	list-style:none;
+	background-color: #fad3b4;
+	color: #332a2b;
+	padding:0;
+	border-radius: 13px;
+	padding-left: 28px;
+	padding-top: 22px;
+	padding-right: 22px;
+	padding-bottom: 22px;
+}
+
+#representativeTable li{
+	float:left;
+	display:inline;
+	width:100%;
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    font-size: 20px;
+    font-weight: 300;		
+}
+.loan-calculator h2{
+	padding-top: 20px;
+	color: #333;
+}
+
+table.rep{
+	padding:20px;
+	margin:0 0 20px;
+	background:#f6f6f6;
+}
+table.rep .head{
+	font-weight:bold;
+}
+table.rep .text{
+	font-size:10px;
+	padding:20px 0 0;
+}
+
+label.credit{
+	position:relative;
+}
+label.credit span.content{
+	display:none;
+}
+label.credit.bad span.content,
+label.credit.bad:hover{
+	color:#fff;
+	background:#c00 !important;
+}
+label.credit.poor span.content,
+label.credit.poor:hover{
+	color:#fff;
+	background:#e65005 !important;
+}
+label.credit.avg span.content,
+label.credit.avg:hover{
+	color:#131313;
+	background:#e6cb05 !important;
+}
+label.credit.good span.content,
+label.credit.good:hover{
+	color:#fff;
+	background:#a5c24e !important;
+}
+label.credit.exc span.content,
+label.credit.exc:hover{
+	color:#fff;
+	background:#69c24e !important;
+}
+label.credit:hover span.content{
+	display:block;
+	position:absolute;
+	left:-1px;
+	bottom:35px;
+	width:500px;
+	height:200px;
+	background:#fff;
+	text-align:left;
+	z-index:999;
+	padding:20px;
+}
+label.credit:hover span.content strong{
+	display:block;
+	font-size:16px;
+	margin:0 0 10px;
+}
+
+#apply-now {
+	background: #f01c24;
+	display: block;
+	line-height: 30px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+	text-decoration: none;
+	padding: 15px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	border:none;
+}
+#apply-now:hover{
+	background:#333;
+}
+.calculate-form{
+	padding:10px 20px;
+	/*background:#FDFDFD;*/
+}
+.btn.apr{
+	margin-top: 2px;
+	border-radius:none !important;
+}
+.ui-button-text-only .ui-button-text{
+	font-size:11px;
+	padding:0 !important;
+	margin:10px 5px;
+}
+.ui-buttonset{
+	margin:10px 0;
+}
+.value{
+	color: #231f1e;
+	font-size: 20px;
+    font-weight: 300;
+	display: inline-block;
+	margin-bottom: 10px;
+}
+#total_payable_example {
+	font-size: 27px;
+	font-weight: 400;
+	margin-top: -12px;
+}
+
+.active-apr {
+  background: #333;
+}
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; cursor: default; overflow: auto; -webkit-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); -moz-box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); box-shadow: 1px 4px 3px rgba(50, 50, 50, 0.64); }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+.free{
+	color:#999;
+}
+.formexample{
+	padding-top:15px;
+	padding-bottom:15px;
+	background-color:rgba(255, 255, 255, 0.6);
+	border:1px solid #efefef;
+	margin-left:0;
+	margin-right:0;
+	margin-bottom:20px;
+}
+
+/* Riyaka CSS */
+
+#car-calculator {
+	background-color: transparent;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.loan-title{
+	font-weight: 300;
+	font-size: 20px;
+	color: #ec6a0a!important;
+	margin-top: 25px;
+}
+
+#car-calculator .loan-calculator {
+	background-color: #fff;
+	border: 1px solid #bebfc1;
+	padding-left: 30px;
+	padding-right: 12px;
+	padding-top: 14px;
+	padding-bottom: 11px;
+}
+
+#loan_amount {
+	display: block;
+	background-color: #f9d2b3!important;
+	color: #231f1e;
+	padding-left: 11px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-radius: 12px;
+	font-size: 23px;
+	font-weight: 400;
+	margin-bottom: 22px;
+}
+
+#loan_amount p {
+	display: inline-block;
+	color: #ec6a08!important;
+	margin: 0;
+	padding: 0;
+}
+
+#downpayment {
+	float: right;
+	color: #818183!important;
+	font-weight: 300;
+	margin-top: 25px;
+}
+
+#loan_term {
+	float: right;
+	color: #818183!important;
+	font-weight: 300;
+	margin-top: 25px;
+	color: #ec6a0a;
+}
+	#loan_term span {
+		color: #818183!important;
+	}
+
+#loan_term_slider {
+	margin-top: 19px;
+}
+
+#purchase_price_slider {
+	margin-top: 17px;
+}
+
+#downpayment_slider {
+	margin-top: 15px;
+}
+
+#calc_buttons {
+	text-align: center;
+}
+
+#calc_buttons button {
+	background-color: transparent;
+	color: #b0b1b3!important;
+	border-color: #ec6c0b!important;
+	width: 100px;
+	text-align: center;
+	padding-left: 0;
+	padding-right: 0;
+	margin-right: 8px;
+	border-radius: 0!important;
+}
+
+#calc_buttons button:hover {
+	color: #ec6c0b!important;
+	background-color: #f8f6f9!important;
+	outline: none!important;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+    transition: 0.8s;
+
+}
+
+#final_button a {
+	text-decoration: none;
+}
+
+#final_button button {
+	background-color: #ee6a08;
+	border-color: #ee6a08;
+	text-transform: uppercase;
+	color: #fffdfe;
+	padding: 6px 6px;
+	font-size: 28px;
+	font-weight: 700;
+	border-radius: 13px;
+	margin-top: 20px;
+}
+
+#final_button button:hover {
+	background-color: transparent;
+	color: #332a2b;
+	transition-duration: 0.8s;
+}
+
+#final_button button:focus, 
+#final_button button:active {
+	background-color: transparent;
+	color: #332a2b;
+	outline: none!important;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+    transition: 0.3s;
+}
+
+#final_button button small {
+	font-size: 15.5px;
+	font-weight: 200;
+	display: block;
+}
+
+#calc_buttons button:focus, 
+#calc_buttons button:active {
+	background-color: #f8f6f9!important;
+	outline: none!important;
+	-webkit-box-shadow: none;
+    box-shadow: none;
+    transition: 0.3s;
+    color: #ee6a08!important;
+}
+	#calc_buttons button.active {
+		background-color: #f8f6f9!important;
+		outline: none!important;
+		-webkit-box-shadow: none;
+	    box-shadow: none;
+	    transition: 0.3s;
+	    color: #ee6a08!important;
+	}
+
+
+/* RANGERS */
+
+.ui-widget-content {
+	border: 1px solid #dfdfdf!important;
+}
+
+.ui-slider-horizontal {
+    height: 0!important;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+    top: -0.8em!important;
+}
+
+.ui-state-default, 
+.ui-widget-content .ui-state-default, 
+.ui-widget-header .ui-state-default {
+    border: 1px solid #eb6b08!important;
+    background: #eb6b08!important;
+}
+
+.ui-slider .ui-slider-handle {
+    width: 1.5em!important;
+    height: 1.5em!important;
+  }
+
+.ui-corner-all, 
+.ui-corner-bottom, 
+.ui-corner-right, 
+.ui-corner-br {
+    border-bottom-right-radius: 11px!important;
+}
+
+.ui-corner-all, 
+.ui-corner-bottom, 
+.ui-corner-left, 
+.ui-corner-bl {
+    border-bottom-left-radius: 11px!important;
+}
+
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+    border-top-right-radius: 11px!important;
+}
+
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+    border-top-left-radius: 11px!important;
+}
+
+a.ui-slider-handle:focus {
+    outline: 9px!important;
+    outline-offset: -2px!important;
+}
+
+/*
+#calc_buttons button:focus {
+	color: #b0b1b3!important;
+    background-color: #ec6a0a;!important;
+}
+*/
+
+@media (max-width: 768px) {
+	#representativeTable li{
+		width:50%;	
+	}
+	#representativeTable {
+		margin-top: 20px;
+	}
+}
+@media (max-width: 480px) {
+	#representativeTable li{
+		width:100%;	
+	}
+	.loan-title {
+	    font-size: 19px;
+	}
+	#calc_buttons button {
+	    margin-bottom: 10px;
+	}
+	#representativeTable {
+    	text-align: center;
+	}
+	#apr_example, 
+	#monthly_payment_example, 
+	#total_credit_example, 
+	#total_payable_example {
+		float: none!important;
+	}
+
+	#total_payable_example {
+		margin-top: 0px;
+		margin-top: 12px;
+	}
+	#final_button button {
+	    font-size: 19px;
+	}
+	#final_button button small {
+    	font-size: 12.5px;
+	}
+}
+
+@media (min-width: 768px){  }
